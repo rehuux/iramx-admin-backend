@@ -1,6 +1,4 @@
 export default function handler(req, res) {
-  // Abhi ke liye static data (demo).
-  // Baad me isse database se laa sakte hain (Supabase etc.)
   return res.status(200).json({
     aadhaar_base: "https://myvercalapi.vercel.app/fetch",
     aadhaar_key: "paidchx",
