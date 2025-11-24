@@ -5,7 +5,6 @@ export default function handler(req, res) {
 
   const { username, password } = JSON.parse(req.body || "{}");
 
-  // TEMP STATIC LOGIN (backend side)
   if (username === "admin" && password === "rehu123") {
     return res.status(200).json({
       success: true,
